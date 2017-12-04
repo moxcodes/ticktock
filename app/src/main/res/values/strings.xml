@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tick</string>
+    <string name="action_settings">settings</string>
+    <string name="action_plots">plots</string>
+    <string name="action_log">log</string>
+    <string name="local_service_started">|O.O|0.0|O.-|T.T|x.x|-.-|</string>
+    <string name="local_service_stopped">watcher out.</string>
+    <string name="local_service_label">who watches?</string>
+    <string name="local_service_connected">watcher seized</string>
+    <string name="local_service_disconnected">watcher dropped</string>
+</resources>

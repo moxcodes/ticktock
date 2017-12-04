@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mox.tick.Plots">
+
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/phtChart"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/grvChartz"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/grvCharty"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/grvChartx"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/magChartz"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/gyrChartx"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/gyrCharty"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/gyrChartz"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/magChartx"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/magCharty"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/accChartz"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/accChartx"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/accCharty"
+        android:layout_width="368dp"
+        android:layout_height="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps:"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently Listening to:"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textTunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nothing"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+
+</android.support.constraint.ConstraintLayout>
